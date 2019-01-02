@@ -4,19 +4,19 @@ Uses a VMT "blueprint", which is basically a VMT text block with some "marker" s
 
 Example:
 
-VertexLitGeneric
-{
+	VertexLitGeneric
+	{
 
-	"$basetexture" "models/proj/[BPRINT]"  
-	"$bumpmap" "models/proj/[BPRINT]"
-  
-	"$surfaceprop" "Bloodyflesh"
+		"$basetexture" "models/proj/[BPRINT]"  
+		"$bumpmap" "models/proj/[BPRINT]"
 
-	"$phong" "1"
-	"$phongfresnelranges" "[0.5 0.75 1]"
-	"$phongexponent" "5"
-	"$phongboost" "1.0"
-}
+		"$surfaceprop" "Bloodyflesh"
+
+		"$phong" "1"
+		"$phongfresnelranges" "[0.5 0.75 1]"
+		"$phongexponent" "5"
+		"$phongboost" "1.0"
+	}
 
 Setting *Replacement Marker String* to [BPRINT] would make the "Replacer Entries" replace the Marker Strings in the final archive.
 
